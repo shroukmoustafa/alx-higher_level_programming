@@ -5,5 +5,5 @@ def uppercase(str):
         asci = ord(c)
         if 97 <= asci <= 122:
             asci -= 32
-        print(chr(asci), end='')
+        print("{}".format(chr(asci)), end='')
     print()
