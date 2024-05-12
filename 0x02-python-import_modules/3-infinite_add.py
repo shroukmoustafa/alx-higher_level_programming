@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
     x = []
-    x = sys.args
+    x = int(sys.args)
     s = 0
     for i in x:
         s += i
