@@ -2,8 +2,9 @@
 if __name__ == "__main__":
     import sys
     x = []
-    x = int(sys.args)
+    x = sys.argv
     s = 0
-    for i in x:
-        s += i
+    for i, n in enumerate(x):
+        if i > 0:
+            s += int(n)
     print(f"{s}")
