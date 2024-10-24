@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for a in range(a, z):
-    print({}.format.chr(a))
+    print("{}".format.chr(a))
