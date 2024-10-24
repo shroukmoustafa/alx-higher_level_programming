@@ -9,5 +9,5 @@ if m > 5:
 elif m == 0:
     print("Last digit of {} is {} and is 0".format(number, m))
 else:
-    print("Last digit of {} is {} and is less than 6 and" \
-        "not 0".format(number, m))
+    print("Last digit of {} is {} and is less than 6 and"
+           " not 0".format(number, m))
